@@ -29,3 +29,5 @@ Any tasks that do not match all of these criterias will not be merged. Users ass
 The main release workflow logic is under `src/utils/workflow.ts`. The manager, slack and views folders contains files which are deprecated and no longer maintained since its associated with the Slack bot implementation.
 
 After making changes to any files, run `npm run bundle` to compile to `dist/index.js` and bundle all dependencies into `bundle/index.js`. To watch for any changes while developing, run `npm run dev`.
+
+🥇
